@@ -7,7 +7,9 @@
 const W = parseInt(new URLSearchParams(window.location.search).get('width') || 900*4);
 RATIO=1.5126;
 C.width=W;
-C.height=H=W/RATIO|0;
+H=W/RATIO|0;
+if (H%2>0){H-=1}  // ensure the height is even
+C.height=H;
 
 // the scale will depend on the longest or shortest side, depending how it fits the current window
 WW=window.innerWidth;
