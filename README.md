@@ -24,4 +24,4 @@ The default is 'jpeg', but you can add `?image-extension=png` for PNG files.
 By default the smallest triangle faces will not be filled with the texture. This is done to save computing time, as it is not efficient to spend much drawing time on every single tiny triangle. However, you can allow this with `?draw-small-faces=true` which might be interesting for a specific variation you like. So then you can compare how it looks with more detail in the smallest triangles.
 
 For example, the following url will always draw the same subdivision, because it has a certain seed predefined. The image width is set to 1600 pixels, and when saving the image, a PNG file will be saved.
-- `[https://josvromans.github.io/flakes_fontys/index.html?image-extension=png&width=1600&seed=963326957`](https://josvromans.github.io/flakes_fontys/index.html?image-extension=png&width=1600&seed=963326957)`
+- [https://josvromans.github.io/flakes_fontys/index.html?image-extension=png&width=1600&seed=963326957](https://josvromans.github.io/flakes_fontys/index.html?image-extension=png&width=1600&seed=963326957)
